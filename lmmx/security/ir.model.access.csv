@@ -1,0 +1,5 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+cell_chips_manager,Cell Chips Manager,model_lmm_cell_chip,lmm_group_manager,1,1,1,1
+cell_chips_user,Cell Chips User,model_lmm_cell_chip,lmm_group_user,1,1,1,0
+cell_chips_maintainer,Cell Chips List Maintainer,model_lmm_cell_chip,lmm_group_maintainer,1,1,0,0
+cell_chips_reader,Cell Chips Reader,model_lmm_cell_chip,lmm_group_reader,1,0,0,0
