@@ -8,7 +8,7 @@
     'author': 'LMMX',
     'application': True,
     'license': "AGPL-3",
-    'category': "Services/LmmX",
+    'category': "Services/Lmmx",
     'depends': [
         'base',
         'stock',

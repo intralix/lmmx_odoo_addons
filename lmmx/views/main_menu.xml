@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <menuitem id="main_lmm_menu" name="LMM" web_icon="Logica_Mobile_Mexico,static/description/icon.png"/>
+  <menuitem id="main_lmm_menu" name="LMM" web_icon="lmm,static/description/icon.png"/>
   <menuitem id="lmm_menu" name="Assets" parent="main_lmm_menu" sequence="1"/>
   <menuitem id="lmm_configuration_menu" name="Configurations" parent="main_lmm_menu" sequence="80"/>
 
