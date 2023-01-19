@@ -1,0 +1,669 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* lmmx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-19 20:37+0000\n"
+"PO-Revision-Date: 2023-01-19 20:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__100kb
+msgid "100KB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__100mb
+msgid "100MB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__10gb
+msgid "10GB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__10mb
+msgid "10MB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__term__12
+msgid "12"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__15mb
+msgid "15MB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__term__18
+msgid "18"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__1gb
+msgid "1GB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__1mb
+msgid "1MB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__20kb
+msgid "20KB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__term__24
+msgid "24"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__2mb
+msgid "2MB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__3gb
+msgid "3GB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__3mb
+msgid "3MB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__500mb
+msgid "500MB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__5gb
+msgid "5GB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__plan__5mb
+msgid "5MB"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__att
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "ATT"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activation_date
+#, python-format
+msgid "Activation Date"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__active
+#, python-format
+msgid "Active"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.ui.menu,name:lmmx.lmm_menu
+msgid "Assets"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__client_id
+#, python-format
+msgid "Assigned to"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/custom_employee.py:0
+#: model:ir.model.fields,field_description:lmmx.field_hr_employee__curp
+#, python-format
+msgid "CURP"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__cancelled
+#, python-format
+msgid "Cancelled"
+msgstr ""
+
+#. module: lmmx
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_form_view
+msgid "Cell Chip Form"
+msgstr ""
+
+#. module: lmmx
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_form_view
+msgid "Cell Chip Info"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.actions.act_window,name:lmmx.cell_chip_list_action
+#: model:ir.ui.menu,name:lmmx.cell_chips_menu
+msgid "Cell Chips"
+msgstr ""
+
+#. module: lmmx
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_tree_view
+msgid "Cell Chips Tree"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model,name:lmmx.model_lmm_cell_chip
+msgid "Cell Chips model"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__cell_chip_owner_id
+#, python-format
+msgid "Cellchip Owner"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__cierto
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Cierto"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__ciertot
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "CiertoT"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/custom_partner.py:0
+#: model:ir.model.fields,field_description:lmmx.field_res_partner__client_category
+#: model:ir.model.fields,field_description:lmmx.field_res_users__client_category
+#, python-format
+msgid "Client Category"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.ui.menu,name:lmmx.lmm_configuration_menu
+msgid "Configurations"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model,name:lmmx.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model,name:lmmx.model_hr_employee
+msgid "Employee"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__end_forced_plan_date
+#, python-format
+msgid "End Forced Plan Date"
+msgstr ""
+
+#. module: lmmx
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Estatus"
+msgstr ""
+
+#. module: lmmx
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Fecha Compra"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: lmmx
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Group By"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__iccid
+#, python-format
+msgid "ICCID"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__id
+msgid "ID"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__message_needaction
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__message_has_error
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__iusacell
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Iusacell"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.module.category,name:lmmx.module_lmm_category
+#: model:ir.ui.menu,name:lmmx.main_lmm_menu
+msgid "LMM"
+msgstr ""
+
+#. module: lmmx
+#: model:res.groups,name:lmmx.lmm_group_maintainer
+msgid "LMM / Maintainer"
+msgstr ""
+
+#. module: lmmx
+#: model:res.groups,name:lmmx.lmm_group_manager
+msgid "LMM / Manager"
+msgstr ""
+
+#. module: lmmx
+#: model:res.groups,name:lmmx.lmm_group_reader
+msgid "LMM / Reader"
+msgstr ""
+
+#. module: lmmx
+#: model:res.groups,name:lmmx.lmm_group_user
+msgid "LMM / User"
+msgstr ""
+
+#. module: lmmx
+#: model:res.groups,name:lmmx.lmm_group_wizard_manager
+msgid "LMM / Wizards "
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__line_account
+#, python-format
+msgid "Line Account"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__name
+#, python-format
+msgid "Line Number"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__term
+#, python-format
+msgid "Line Terms"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__major_account
+#, python-format
+msgid "Mayor Accounte"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__maztiempo
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "MazTiempo"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__movistar
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Movistar"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.ui.menu,name:lmmx.general_root_conf_menu
+msgid "Other Configuration"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__plan
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Plan"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__prossea
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Prossea"
+msgstr ""
+
+#. module: lmmx
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Proveedor"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__provider
+msgid "Provider"
+msgstr ""
+
+#. module: lmmx
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_form_view
+msgid "Provider Info"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__purchase_date
+#, python-format
+msgid "Purchase Date"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__replaced
+#, python-format
+msgid "Replaced"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__line_number_id
+#, python-format
+msgid "SIMCARD"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/custom_employee.py:0
+#: model:ir.model.fields,field_description:lmmx.field_hr_employee__social_security_number
+#, python-format
+msgid "Security Social Number"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__simpacsys
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Simpacsys"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__skywave
+msgid "Skywave"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__status
+#, python-format
+msgid "Status"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__status_date
+#, python-format
+msgid "Status Date"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__days_suspended
+#, python-format
+msgid "Status Elpased Days"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__suspended
+#, python-format
+msgid "Suspended"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__taken
+#, python-format
+msgid "Taken"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__telcel
+#: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
+msgid "Telcel"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.constraint,message:lmmx.constraint_lmm_cell_chip_name_unique
+msgid "The cellchip id must be unique"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__days_suspended
+msgid "Time elapsed since the line was set to suspended expressed in days"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__voice
+msgid "Voice"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__website_message_ids
+msgid "Website communication history"
+msgstr ""

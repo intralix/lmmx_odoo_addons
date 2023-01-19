@@ -13,7 +13,7 @@
         'base',
         'stock',
         'contacts',
-        'account',        
+        'account',
         'crm',
         'sale_subscription',
         'helpdesk',
@@ -24,5 +24,7 @@
         'security/ir.model.access.csv',
         'views/main_menu.xml',
         'views/cell_chip.xml',
+        'views/custom_employee.xml',
+        'views/custom_partner.xml',
     ],
 }
