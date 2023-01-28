@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record model="ir.ui.view" id="custom_repairs_form_view">
+    <field name="name">custom.lmmx_repair.order</field>
+    <field name="model">repair.order</field>
+    <field name="inherit_id" ref="repair.view_repair_order_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='tags_id']" position="after">
+        <field name="reparation_type"/>
+      </xpath>
+
+    </field>
+  </record>
+</odoo>
