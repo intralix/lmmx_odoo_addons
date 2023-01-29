@@ -9,6 +9,11 @@
         <field name="reparation_type"/>
       </xpath>
 
+      <xpath expr="//form//notebook//page[@name='parts']" position="attributes">
+        <attribute name="groups">lmmx.lmm_group_repairs_parts</attribute>
+      </xpath>
+
     </field>
   </record>
+
 </odoo>
