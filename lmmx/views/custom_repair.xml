@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record model="ir.ui.view" id="custom_repairs_form_view">
+    <field name="name">custom.lmmx_repair.order</field>
+    <field name="model">repair.order</field>
+    <field name="inherit_id" ref="repair.view_repair_order_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='tag_ids']" position="after">
+        <field name="reparation_type"/>
+      </xpath>
+
+      <xpath expr="//form//notebook//page[@name='parts']" position="attributes">
+        <attribute name="groups">lmmx.lmm_group_repairs_parts</attribute>
+      </xpath>
+
+    </field>
+  </record>
+
+</odoo>

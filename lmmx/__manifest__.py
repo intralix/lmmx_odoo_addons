@@ -18,6 +18,7 @@
         'sale_subscription',
         'helpdesk',
         'mail',
+        'repairs',
     ],
     'data': [
         'security/security.xml',
@@ -26,5 +27,7 @@
         'views/cell_chip.xml',
         'views/custom_employee.xml',
         'views/custom_partner.xml',
+        'views/custom_repair.xml',
+        'views/custom_stocking.xml',
     ],
 }
