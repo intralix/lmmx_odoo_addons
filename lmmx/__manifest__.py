@@ -33,6 +33,7 @@ This module is maintained by internal developers.
         'views/main_menu.xml',
         'views/cell_chip.xml',
         'views/custom_employee.xml',
+        'views/custom_partner.xml',
     ],
     'license': "AGPL-3",
 }
