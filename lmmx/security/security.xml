@@ -50,7 +50,7 @@
   </record>
 
   <record id="lmm_group_repairs_parts" model="res.groups">
-    <field name="name">Manage Repairs Parts</field>
+    <field name="name">LMM / Manage Repairs Parts</field>
     <field name="users" eval="[
             (4, ref('base.user_root')),
             (4, ref('base.user_admin'))
@@ -58,7 +58,7 @@
   </record>
 
   <record id="lmm_group_inventory_special_operations" model="res.groups">
-    <field name="name">Inventory Special Operations</field>
+    <field name="name">LMM / Inventory Special Operations</field>
     <field name="users" eval="[
             (4, ref('base.user_root')),
             (4, ref('base.user_admin'))

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-30 17:17+0000\n"
-"PO-Revision-Date: 2023-01-30 17:17+0000\n"
+"POT-Creation-Date: 2023-01-30 18:41+0000\n"
+"PO-Revision-Date: 2023-01-30 18:41+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -188,6 +188,12 @@ msgid "Cancelled"
 msgstr ""
 
 #. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_res_partner__client_category
+#: model:ir.model.fields,field_description:lmmx.field_res_users__client_category
+msgid "Categoría"
+msgstr ""
+
+#. module: lmmx
 #: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_form_view
 msgid "Cell Chip Form"
 msgstr ""
@@ -243,6 +249,11 @@ msgid "Configurations"
 msgstr ""
 
 #. module: lmmx
+#: model:ir.model,name:lmmx.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__create_uid
 msgid "Created by"
 msgstr ""
@@ -260,6 +271,11 @@ msgstr ""
 #. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__line_account
 msgid "Cuenta de Líneas"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__repair_order__reparation_type__diagnosis
+msgid "Diagnóstico"
 msgstr ""
 
 #. module: lmmx
@@ -334,6 +350,11 @@ msgid "Font awesome icon e.g. fa-tasks"
 msgstr ""
 
 #. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__repair_order__reparation_type__warranty
+msgid "Garantía"
+msgstr ""
+
+#. module: lmmx
 #: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
 msgid "Group By"
 msgstr ""
@@ -378,11 +399,6 @@ msgid "If checked, some messages have a delivery error."
 msgstr ""
 
 #. module: lmmx
-#: model:res.groups,name:lmmx.lmm_group_inventory_special_operations
-msgid "Inventory Special Operations"
-msgstr ""
-
-#. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_is_follower
 msgid "Is Follower"
 msgstr ""
@@ -400,8 +416,18 @@ msgid "LMM"
 msgstr ""
 
 #. module: lmmx
+#: model:res.groups,name:lmmx.lmm_group_inventory_special_operations
+msgid "LMM / Inventory Special Operations"
+msgstr ""
+
+#. module: lmmx
 #: model:res.groups,name:lmmx.lmm_group_maintainer
 msgid "LMM / Maintainer"
+msgstr ""
+
+#. module: lmmx
+#: model:res.groups,name:lmmx.lmm_group_repairs_parts
+msgid "LMM / Manage Repairs Parts"
 msgstr ""
 
 #. module: lmmx
@@ -460,11 +486,6 @@ msgstr ""
 #. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_main_attachment_id
 msgid "Main Attachment"
-msgstr ""
-
-#. module: lmmx
-#: model:res.groups,name:lmmx.lmm_group_repairs_parts
-msgid "Manage Repairs Parts"
 msgstr ""
 
 #. module: lmmx
@@ -551,6 +572,11 @@ msgid "Número de Línea"
 msgstr ""
 
 #. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_hr_employee__social_security_number
+msgid "Número de Seguro Social"
+msgstr ""
+
+#. module: lmmx
 #: model:ir.ui.menu,name:lmmx.general_root_conf_menu
 msgid "Other Configuration"
 msgstr ""
@@ -605,6 +631,21 @@ msgid "Repair"
 msgstr ""
 
 #. module: lmmx
+#: model:ir.model,name:lmmx.model_repair_order
+msgid "Repair Order"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__repair_order__reparation_type__repair
+msgid "Reparaciones"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_repair_order__reparation_type
+msgid "Reparation Type"
+msgstr ""
+
+#. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
 #, python-format
 msgid "Replaced"
@@ -629,7 +670,6 @@ msgstr ""
 
 #. module: lmmx
 #: code:addons/lmmx/models/custom_employee.py:0
-#: model:ir.model.fields,field_description:lmmx.field_hr_employee__social_security_number
 #, python-format
 msgid "Security Social Number"
 msgstr ""
