@@ -32,6 +32,7 @@ This module is maintained by internal developers.
         'security/ir.model.access.csv',
         'views/main_menu.xml',
         'views/cell_chip.xml',
+        'views/custom_employee.xml',
     ],
     'license': "AGPL-3",
 }

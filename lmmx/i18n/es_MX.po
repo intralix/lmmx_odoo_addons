@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-19 20:26+0000\n"
-"PO-Revision-Date: 2023-01-19 20:26+0000\n"
+"POT-Creation-Date: 2023-01-30 17:17+0000\n"
+"PO-Revision-Date: 2023-01-30 17:17+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -113,14 +113,12 @@ msgstr ""
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activation_date
 #, python-format
 msgid "Activation Date"
 msgstr "Fecha de Activación"
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__active
 #, python-format
 msgid "Active"
 msgstr "Activo"
@@ -146,16 +144,25 @@ msgid "Activity Type Icon"
 msgstr ""
 
 #. module: lmmx
-#: model:ir.ui.menu,name:lmmx.lmm_menu
-msgid "Assets"
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__active
+msgid "Activo"
 msgstr ""
 
 #. module: lmmx
-#: code:addons/lmmx/models/cell_chip.py:0
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__client_id
+msgid "Asignada a"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.ui.menu,name:lmmx.lmm_menu
+msgid "Assets"
+msgstr "Equipos"
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
 #, python-format
 msgid "Assigned to"
-msgstr ""
+msgstr "Asignado a"
 
 #. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_attachment_count
@@ -170,8 +177,12 @@ msgid "CURP"
 msgstr ""
 
 #. module: lmmx
-#: code:addons/lmmx/models/cell_chip.py:0
 #: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__cancelled
+msgid "Cancelado"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
 #, python-format
 msgid "Cancelled"
 msgstr "Cancelado"
@@ -200,11 +211,10 @@ msgstr "Listado de Chips"
 #. module: lmmx
 #: model:ir.model,name:lmmx.model_lmm_cell_chip
 msgid "Cell Chips model"
-msgstr ""
+msgstr "Chips"
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__cell_chip_owner_id
 #, python-format
 msgid "Cellchip Owner"
 msgstr "Propietario"
@@ -223,8 +233,6 @@ msgstr ""
 
 #. module: lmmx
 #: code:addons/lmmx/models/custom_partner.py:0
-#: model:ir.model.fields,field_description:lmmx.field_res_partner__client_category
-#: model:ir.model.fields,field_description:lmmx.field_res_users__client_category
 #, python-format
 msgid "Client Category"
 msgstr "Categoría"
@@ -233,11 +241,6 @@ msgstr "Categoría"
 #: model:ir.ui.menu,name:lmmx.lmm_configuration_menu
 msgid "Configurations"
 msgstr "Configuraciones"
-
-#. module: lmmx
-#: model:ir.model,name:lmmx.model_res_partner
-msgid "Contact"
-msgstr "Contacto"
 
 #. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__create_uid
@@ -250,8 +253,23 @@ msgid "Created on"
 msgstr ""
 
 #. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__major_account
+msgid "Cuenta Padre"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__line_account
+msgid "Cuenta de Líneas"
+msgstr ""
+
+#. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__display_name
 msgid "Display Name"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__days_suspended
+msgid "Días desde la suspensión"
 msgstr ""
 
 #. module: lmmx
@@ -261,10 +279,14 @@ msgstr "Empleado"
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__end_forced_plan_date
 #, python-format
 msgid "End Forced Plan Date"
 msgstr "Fin de Plan Forzoso"
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__status
+msgid "Estado"
+msgstr ""
 
 #. module: lmmx
 #: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
@@ -274,6 +296,26 @@ msgstr ""
 #. module: lmmx
 #: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
 msgid "Fecha Compra"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__activation_date
+msgid "Fecha de Activación"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__purchase_date
+msgid "Fecha de Compra"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__status_date
+msgid "Fecha de estatus"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__end_forced_plan_date
+msgid "Fin de Plan Forzoso"
 msgstr ""
 
 #. module: lmmx
@@ -336,6 +378,11 @@ msgid "If checked, some messages have a delivery error."
 msgstr ""
 
 #. module: lmmx
+#: model:res.groups,name:lmmx.lmm_group_inventory_special_operations
+msgid "Inventory Special Operations"
+msgstr "Operaciones Delicadas de Inventario"
+
+#. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__message_is_follower
 msgid "Is Follower"
 msgstr ""
@@ -355,7 +402,7 @@ msgstr ""
 #. module: lmmx
 #: model:res.groups,name:lmmx.lmm_group_maintainer
 msgid "LMM / Maintainer"
-msgstr ""
+msgstr "LMM / Colaborador"
 
 #. module: lmmx
 #: model:res.groups,name:lmmx.lmm_group_manager
@@ -375,7 +422,7 @@ msgstr "LMM / Usuario"
 #. module: lmmx
 #: model:res.groups,name:lmmx.lmm_group_wizard_manager
 msgid "LMM / Wizards "
-msgstr ""
+msgstr "LMM / Flujos"
 
 #. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip____last_update
@@ -394,21 +441,18 @@ msgstr ""
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__line_account
 #, python-format
 msgid "Line Account"
 msgstr "Cuenta de Líneas"
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__name
 #, python-format
 msgid "Line Number"
 msgstr "Número de Línea"
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__term
 #, python-format
 msgid "Line Terms"
 msgstr "Términos"
@@ -419,8 +463,12 @@ msgid "Main Attachment"
 msgstr ""
 
 #. module: lmmx
+#: model:res.groups,name:lmmx.lmm_group_repairs_parts
+msgid "Manage Repairs Parts"
+msgstr "Gestionar Partes en Reparaciones"
+
+#. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__major_account
 #, python-format
 msgid "Mayor Accounte"
 msgstr "Cuenta Padre"
@@ -498,6 +546,11 @@ msgid "Number of unread messages"
 msgstr ""
 
 #. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__name
+msgid "Número de Línea"
+msgstr ""
+
+#. module: lmmx
 #: model:ir.ui.menu,name:lmmx.general_root_conf_menu
 msgid "Other Configuration"
 msgstr "Otras configuraciones"
@@ -506,6 +559,11 @@ msgstr "Otras configuraciones"
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__plan
 #: model_terms:ir.ui.view,arch_db:lmmx.cell_chip_search_view
 msgid "Plan"
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__cell_chip_owner_id
+msgid "Propietario"
 msgstr ""
 
 #. module: lmmx
@@ -531,14 +589,23 @@ msgstr "Información de Proveedor"
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__purchase_date
 #, python-format
 msgid "Purchase Date"
 msgstr "Fecha de Compra"
 
 #. module: lmmx
-#: code:addons/lmmx/models/cell_chip.py:0
 #: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__replaced
+msgid "Reemplazdo"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/custom_repair.py:0
+#, python-format
+msgid "Repair"
+msgstr "Reparaciones"
+
+#. module: lmmx
+#: code:addons/lmmx/models/cell_chip.py:0
 #, python-format
 msgid "Replaced"
 msgstr "Reemplazdo"
@@ -565,7 +632,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:lmmx.field_hr_employee__social_security_number
 #, python-format
 msgid "Security Social Number"
-msgstr ""
+msgstr "Número de Seguro Social"
 
 #. module: lmmx
 #: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__provider__simpacsys
@@ -580,21 +647,18 @@ msgstr ""
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__status
 #, python-format
 msgid "Status"
 msgstr "Estatus"
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__status_date
 #, python-format
 msgid "Status Date"
 msgstr "Fecha de estatus"
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__days_suspended
 #, python-format
 msgid "Status Elpased Days"
 msgstr "Días desde la suspensión"
@@ -610,14 +674,17 @@ msgstr ""
 
 #. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__suspended
 #, python-format
 msgid "Suspended"
 msgstr "Suspendido"
 
 #. module: lmmx
+#: model:ir.model.fields.selection,name:lmmx.selection__lmm_cell_chip__status__suspended
+msgid "Suspendido"
+msgstr ""
+
+#. module: lmmx
 #: code:addons/lmmx/models/cell_chip.py:0
-#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__taken
 #, python-format
 msgid "Taken"
 msgstr "Utilizado"
@@ -636,11 +703,16 @@ msgstr "El No. de Chip debe ser único"
 #. module: lmmx
 #: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__days_suspended
 msgid "Time elapsed since the line was set to suspended expressed in days"
-msgstr ""
+msgstr "Tiempo transcurrido desde que la linea fue suspendida, expresado en días"
 
 #. module: lmmx
 #: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__activity_exception_decoration
 msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__term
+msgid "Términos"
 msgstr ""
 
 #. module: lmmx
@@ -654,8 +726,19 @@ msgid "Unread Messages Counter"
 msgstr ""
 
 #. module: lmmx
+#: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__taken
+msgid "Utilizado"
+msgstr ""
+
+#. module: lmmx
 #: model:ir.model.fields,field_description:lmmx.field_lmm_cell_chip__voice
 msgid "Voice"
+msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/custom_repair.py:0
+#, python-format
+msgid "Warranty"
 msgstr ""
 
 #. module: lmmx
@@ -667,3 +750,9 @@ msgstr ""
 #: model:ir.model.fields,help:lmmx.field_lmm_cell_chip__website_message_ids
 msgid "Website communication history"
 msgstr ""
+
+#. module: lmmx
+#: code:addons/lmmx/models/custom_repair.py:0
+#, python-format
+msgid "diagnosis"
+msgstr "Diagnóstico"
