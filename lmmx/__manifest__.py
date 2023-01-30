@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Logica Mobile México',
-    'version': '15.0.1.0.0',
+    'version': '15.0.1.0.1',
     'summary': 'Logica Mobile México internal processes',
     'sequence': 50,
     'website': 'https://www.logicamobilemexico.mx',
