@@ -5,7 +5,7 @@ import logging
 _logger = logging.getLogger(__name__)
 
 
-class Odt(models.Model):
+class CustomRepair(models.Model):
     _inherit = 'repair.order'
 
     reparation_type = fields.Selection(
