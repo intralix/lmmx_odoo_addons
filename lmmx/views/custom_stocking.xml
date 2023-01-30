@@ -8,7 +8,6 @@
       <xpath expr="//button[@name='%(act_stock_return_picking)d']" position="attributes">
         <attribute name="groups">lmmx.lmm_group_inventory_special_operations</attribute>
       </xpath>
-
     </field>
   </record>
 </odoo>
