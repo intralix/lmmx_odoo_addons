@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_quotation_inherit_demo" inherit_id="stock_account.stock_account_report_invoice_document">
+            <xpath expr="//table[@name='invoice_snln_table']" position="attributes">
+                <attribute name="style" replace="width: 100%;"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
