@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.lmm</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="5"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('settings')]" position="inside">
+                <div class="app_settings_block" data-string="LMMX" string="LMMX" data-key="lmmx" groups="lmmx.lmm_group_manager">
+                    <h2 class="bg-dark">HUB API Configuration</h2>
+
+                    <div class="row mt16 o_settings_container" title="The parameters to configure API">
+
+                        <div class="col-12 col-lg-6 o_setting_box" title="Required info to use HUB API.">
+                            <div class="o_setting_left_pane"/>
+                            <div class="o_setting_right_pane">
+                                <span class="o_form_label">API Configuration</span>
+                                <div class="text-muted">
+                                    Configure to allow communication with HUB platform.
+                                </div>
+                                <div class="row mt16">
+                                    <label string="ID" for="lmmx_hub_api_id" class="col-lg-3 o_light_label"/>
+                                    <field name="lmmx_hub_api_id"/>
+                            </div>
+                            <div class="row">
+                                <label string="Secret" for="lmmx_hub_api_secret" class="col-lg-3 o_light_label"/>
+                                <field name="lmmx_hub_api_secret"/>
+                            </div>
+                            <div class="row">
+                                <label string="Basic Token" for="lmmx_hub_api_basic_token" class="col-lg-3 o_light_label"/>
+                                <field name="lmmx_hub_api_basic_token" password="True"/>
+                            </div>
+                            <div class="row">
+                                <label string="Grant Type" for="lmmx_hub_api_grant_type" class="col-lg-3 o_light_label"/>
+                                <field name="lmmx_hub_api_grant_type"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 o_setting_box" title="Endpoints Configuration">
+                        <div class="o_setting_left_pane"/>
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">API Endpoints</span>
+                            <div class="text-muted">
+                                Configure your API Endpoints.
+                            </div>
+                            <div class="row mt16">
+                                <label string="API Login Url"  for="lmmx_hub_api_login_url" class="col-lg-3 o_light_label"/>
+                                <field name="lmmx_hub_api_login_url"/>
+                            </div>
+                            <div class="row mt16">
+                                <label string="API Invoice Url"  for="lmmx_hub_api_invoice_url" class="col-lg-3 o_light_label"/>
+                                <field name="lmmx_hub_api_invoice_url"/>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="action_lmmx_config" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'lmmx', 'bin_size': False}</field>
+    </record>
+
+    <menuitem id="menu_lmmx_config" name="Settings" action="action_lmmx_config" groups="base.group_system" sequence="0"/>
+</odoo>

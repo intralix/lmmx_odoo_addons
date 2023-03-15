@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_custom_account_move_form_inherit" model="ir.ui.view">
+            <field name="name">custom.account_move.form.inherit</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+            <xpath expr="//button[@name='button_draft']" position="after">
+                <button
+                        name="button_publish_at_portal"
+                        type="object"
+                        string="Publish in HUB"
+                        attrs="{}"
+                />
+            </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
