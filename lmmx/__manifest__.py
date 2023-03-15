@@ -30,6 +30,7 @@ This module is maintained by internal developers.
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
+        #'data/ir_cron_data.xml',
         'views/main_menu.xml',
         'views/cell_chip.xml',
         'views/custom_employee.xml',
@@ -37,6 +38,8 @@ This module is maintained by internal developers.
         'views/custom_repair.xml',
         'views/custom_stocking.xml',
         'views/custom_invoice_report.xml',
+        #'views/custom_account_move.xml',
+        #'views/res_config_settings_views.xml',
     ],
     'license': "AGPL-3",
 }
