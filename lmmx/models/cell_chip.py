@@ -5,22 +5,13 @@ from odoo import api, models, fields, _
 class CellChip(models.Model):
     _inherit = ['mail.thread', 'mail.activity.mixin']
     _name = 'lmm.cell_chip'
-    _description = 'Cell Chips model'
+    _description = _('Cell Chips model')
 
     # Línea Celular
     name = fields.Char(
         required=True,
         string=_("Line Number"),
     )
-
-    # device_id = fields.One2many(
-    #     comodel_name='lmm.device',
-    #     inverse_name='cell_chip_id',
-    #     string=_("Installed On"),
-    #     help="GPS Device where the cell chip is on.",
-    #     readonly=True,
-    #     tracking=True
-    # )
 
     # Estatus de la Línea
     status = fields.Selection(
@@ -57,7 +48,7 @@ class CellChip(models.Model):
     )
     # Número de Serie
     line_number_id = fields.Many2one(
-        comodel_name="stock.production.lot",
+        comodel_name="stock.lot",
         string=_("SIMCARD"),
         index=True,
     )
